@@ -34,7 +34,8 @@ img { border-radius: 3px; }
 
 /* page title */
 #page-title {
-   background: #383232 url(../images/header-bg.jpg);
+   /* background: #383232 url(../images/header-bg.jpg); */
+   background: #086788;
    padding-top: 42px;
    padding-bottom: 54px;
 }
@@ -59,6 +60,8 @@ img { border-radius: 3px; }
 #page-content {
    padding-top: 54px;
    padding-bottom: 54px;
+   padding-right: 10px;
+   padding-left: 10px;
    margin: 0 auto;
    width: 91.66667%;
 }
@@ -197,7 +200,7 @@ header {
 header .logo {
    position: absolute;
    left: 20px;
-   top: 48px;
+   top: 10px;
 }
 header .logo a {
    display: block;
@@ -205,8 +208,8 @@ header .logo a {
 	padding: 0;
 	border: none;
 	outline: none;
-   width: 113px;
-   height: 24px;
+   /*width: 113px;*/
+   /*height: 24px;*/
 }
 
 /* primary navigation
@@ -221,7 +224,7 @@ header .logo a {
 /* nav-wrap */
 #nav-wrap {
 	position: relative;
-   font: 14px raleway-bold, sans-serif;
+   font: 12px raleway-bold, sans-serif;
    float: right;
    margin-top: 36px;
    margin-right: 20px;
@@ -258,7 +261,8 @@ ul#nav li a {
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
-   color: #8a8383;
+   /*color: #8a8383;*/
+   color: #FFF;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -269,7 +273,7 @@ ul#nav li a {
 
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li:hover > a,
-ul#nav li.current a { color: #fff; }
+ul#nav li.current a { color: #E63946; }
 
 /* adds down arrow */
 ul#nav span:after {
@@ -721,78 +725,6 @@ ul#nav ul li a {
 }
 
 /* ------------------------------------------------------------------ */
-/* g. Call To Action Section
-/* ------------------------------------------------------------------ */
-
-#call-to-action {
-   background: #544A4A;
-   padding-top: 66px;
-   padding-bottom: 48px;
-}
-#call-to-action .action {
-   margin-top: 12px;
-}
-#call-to-action h1 {
-   font: 34px/42px raleway-bold, sans-serif;
-   color: #E4E2E2;
-   margin-bottom: 3px;
-}
-#call-to-action h1 a {
-   color: inherit;
-}
-#call-to-action p {
-   color: #9D9595;
-   font-size: 17px;
-}
-#call-to-action .button:hover,
-#call-to-action .button:active {
-   background: #E4E2E2;
-   color: #544A4A;
-}
-#call-to-action p span {
-	font-family: 'notosans-bold', sans-serif; 
-	color: #DDD9D9;
-}
-
-/* ------------------------------------------------------------------ */
-/* h. Tweets Section - Main Page
-/* ------------------------------------------------------------------ */
-
-#tweets {
-   background: #f5f5f5 url(../images/tweets-bg.jpg);
-   padding-top: 60px;
-   padding-bottom: 30px;
-   border-top: 1px solid #E3E8E8;
-   border-bottom: 1px solid #C1CDCD;
-}
-.tweeter-icon { font-size: 54px; }
-
-/* Twitter Feed */
-#tweets #twitter {
-   margin: 24px auto;
-   padding: 0;
-   width: 90%;
-}
-#tweets #twitter li {
-   margin: 6px 0px 18px 0;
-   line-height: 24px;
-}
-#tweets #twitter li span {
-   display: block;
-   font: 24px/48px raleway-semibold, Sans-serif;
-   margin-bottom: 12px;
-   color: #99A0A8;
-}
-#tweets #twitter li b a {
-   font: 18px/36px notosans-regular, Sans-serif;
-   color: #A4ABB2;
-   border: none;
-}
-#tweets .button {
-   padding: 6px 24px;
-}
-
-/* ------------------------------------------------------------------ */
 /* i. Blog
 /* ------------------------------------------------------------------ */
 
@@ -1072,7 +1004,10 @@ ol.commentlist {
 /* ------------------------------------------------------------------ */
 
 /* Team Members */
-#team-wrapper { }
+#team-wrapper {
+   padding-right: 10px;
+   padding-right: 10px;
+}
 
 #team-wrapper .member {
    margin-bottom: 24px;
