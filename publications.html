@@ -1,0 +1,49 @@
+---
+layout: default
+title: Projects
+---
+<!-- Page Title
+================================================== -->
+<div id="page-title">
+
+    <div class="row">
+
+        <div class="ten columns centered text-center">
+            <h1>Publications</h1>
+            <p>Selection of our work that has been published in peer reviewed journals.</p>
+        </div>
+
+    </div>
+
+</div>
+<!-- Page Title End-->
+
+<!-- Content
+   ================================================== -->
+<div class="content-outer">
+
+    <div id="page-content" class="row portfolio">
+
+        <div class="row">
+
+            <ul>
+                {% for post in site.posts %}
+                    <li>
+                        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+
+                        <div class="entry-excerpt">
+                        
+                            <p>{{ post.excerpt }}</p>
+                        
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+
+        </div>
+        <!-- primary end-->
+
+    </div>
+
+</div>
+<!-- content End-->
